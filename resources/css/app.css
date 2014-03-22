@@ -7463,3 +7463,31 @@ body.x-desktop {
 .x-grid .x-grid-summaryrow .x-grid-cell {
   border-color: #C0C0C0;
 }
+
+.home {
+	text-align: center;
+}
+
+.home h1 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.home p {
+	color: #666;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	margin: 10px 20px 20px 20px;
+}
+
+.home img {
+	margin-top: -10px;
+}
+
+.home h2 {
+	font-weight: bold;
+	color: red;
+	font-size: 1.0em;
+}
+}
+

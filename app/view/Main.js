@@ -1,4 +1,4 @@
-Ext.define('Sencha.view.Main', {
+Ext.define('ShoppingList.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
@@ -10,7 +10,7 @@ Ext.define('Sencha.view.Main', {
 
         items: [
             {
-                title: 'Welcome',
+                title: 'Home Tab',
                 iconCls: 'home',
 
                 styleHtmlContent: true,
@@ -19,17 +19,17 @@ Ext.define('Sencha.view.Main', {
                 items: {
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
+                    title: 'Welcome to your Shopping List'
                 },
 
                 html: [
-                    "You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
+                    "I changed the default <b>HTML Content</b> to a different! "
+                    "content of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
                     "and refresh to change what's rendered here."
                 ].join("")
             },
             {
-                title: 'Get Started',
+                title: 'Woohoo',
                 iconCls: 'action',
 
                 items: [

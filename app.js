@@ -1,23 +1,25 @@
 // We've added a third and final item to our tab panel - scroll down to see it
 Ext.application({
-    name: 'Sencha',
+    name: 'Shopping List',
 
     launch: function() {
-        Ext.create("Ext.tab.Panel", {
-            fullscreen: true,
-            tabBarPosition: 'bottom',
-
-            items: [
+    	//The whole app UI lives in this tab panel
+        Ext.Viewport.add({
+        	xtype: 'tabpanel',
+        	fullscreen: true,
+        	tabBarPosition: 'bottom',
+        	
+        	items: [
+        	        //This is the home page, just simple HTML
                 {
                     title: 'Home',
                     iconCls: 'home',
                     cls: 'home',
                     html: [
-                        '<img width="65%" src="http://staging.sencha.com/img/sencha.png" />',
-                        '<h1>Welcome to Sencha Touch</h1>',
-                        "<p>We're creating the Getting Started app, which demonstrates how ",
-                        "to use tabs, lists, and forms to create a simple app.</p>",
-                        '<h2>Sencha Touch</h2>'
+                        '<img width=15% src="http://staging.sencha.com/img/sencha.png" />',
+                        '<h1>Your great Helper</h1>',
+                        '<p>for your weekly </p>',
+                        '<h2>Shopping</h2>'
                     ].join("")
                 },
                 {
